@@ -111,7 +111,7 @@ footer {
 
 .heading-secondary {
   font-size: 2.8rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   color: hsl(0, 0%, 100%);
 }
 
@@ -126,7 +126,7 @@ footer {
 }
 
 .article {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .components {
