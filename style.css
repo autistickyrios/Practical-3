@@ -1,0 +1,167 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 1.4rem;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.heading-primary {
+  font-size: 3.4rem;
+  color: #343a40;
+  margin-bottom: -2rem;
+}
+
+.heading-secondary {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.heading-tertiary {
+  align-items: center;
+  gap: 5px;
+  display: flex;
+  font-size: 2.2rem;
+  color: #343a40;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0.5rem;
+}
+
+.article {
+  margin-bottom: 1rem;
+}
+
+.components {
+  padding: 3rem;
+  border-radius: 2rem;
+  margin: 2rem;
+  box-shadow: 1rem 1rem 10px rgb(180, 180, 180);
+  background-color: hsl(217, 19%, 35%);
+}
+
+.usage {
+  padding: 3rem;
+  border-radius: 2rem;
+  margin: 2rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(219, 29%, 14%);
+  box-shadow: 1rem 1rem 10px rgb(180, 180, 180);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.usage-list li {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+@media (max-width: 53em) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.icon {
+  height: 2.4rem;
+}
