@@ -154,6 +154,7 @@ footer {
 
 .usage-list li {
   color: hsla(0, 0%, 100%, 0.7);
+  margin-bottom: 0.8rem;
 }
 
 @media (max-width: 53em) {
