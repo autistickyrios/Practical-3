@@ -116,11 +116,10 @@ footer {
 }
 
 .heading-tertiary {
-  align-items: center;
-  gap: 5px;
   display: flex;
+  gap: 5px;
   font-size: 2.2rem;
-  color: #343a40;
+  align-items: center;
   color: hsl(0, 0%, 100%);
   margin-bottom: 0.5rem;
 }
@@ -157,12 +156,12 @@ footer {
   margin-bottom: 0.8rem;
 }
 
+.icon {
+  height: 2.4rem;
+}
+
 @media (max-width: 53em) {
   .container {
     grid-template-columns: 1fr;
   }
-}
-
-.icon {
-  height: 2.4rem;
 }
